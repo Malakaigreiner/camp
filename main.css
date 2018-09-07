@@ -1,0 +1,1000 @@
+html, body {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+@media screen and (min-width: 1201px) and (max-width:99999px) {
+  .ninteenHundred, .twelveHundred, .eightFifty, .sevenEightyEight, .sevenEightyThree, .sixThirty, .fiveSixty, .fourHundred, .tiny, .fourteenHundred {
+    display: none;
+  }
+  .twelveHundredEighty {
+    display: inline;
+
+  }
+  html{
+      cursor: url(https://www.christianet.com/freecursor/images/camping_2.cur) 5 5, pointer;
+      min-height: 100%;
+  }
+  html, body {
+    background-color: white;
+    overflow: hidden;
+  }
+  .drag{
+    position: absolute;
+    right:0px;
+    bottom:40px;
+    font-family: 'times',serif;
+  }
+  .number {
+    font-size: 70px;
+    text-align: center;
+
+  }
+  .number:hover span {
+    display: none;
+  }
+  .number:hover:after {
+    font-size: 20px;
+    content: 'Selections from Notes on "Camp" by Susan Sontag';
+    font-family: 'sabbath-black';
+  }
+
+  .liltent{
+    position: absolute;
+    font-size: 300px;
+    width: 30%;
+    height: 400px;
+    top:10vw;
+  }
+  .start{
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    top: 14vw;
+    right:0px;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 40px;
+    font-family: 'times',serif;
+  }
+
+  .To:hover{
+    font-family: 'Quantico', sans-serif;
+  }
+  .start2:hover{
+    font-family: 'Vesper Libre', serif;
+  }
+  .very:hover{
+    font-family: 'Black Ops One', cursive;
+  }
+  .generally:hover{
+    font-family: 'Creepster', cursive;
+  }
+  .camp1:hover
+  {
+  font-family: 'sabbath-black';
+  }
+  .is:hover{
+    font-family: 'Monoton', cursive;
+  }
+  .one:hover{
+    font-family: 'Ewert', cursive;
+  }
+  .way:hover{
+    font-family: 'Bungee Shade', cursive;
+  }
+  .of:hover{
+    font-family: 'Fruktur', cursive;
+  }
+  .seeing:hover{
+    font-family: 'Alike Angular', serif;
+  }
+  .the:hover{
+    font-family: 'Scope One', serif;
+  }
+  .world:hover{
+
+    font-family: 'Rajdhani', sans-serif;
+
+  }
+  .as:hover{
+    font-family: 'Cinzel', serif;
+  }
+  .an:hover{
+    font-family: 'Shrikhand', cursive;
+  }
+.aesthetic:hover{
+  font-family: 'Berkshire Swash', cursive;
+}
+.phenomenon:hover{
+font-family: 'Abril Fatface', cursive;
+}
+.in:hover{
+font-family: 'Josefin Sans', sans-serif;
+}
+.terms:hover{
+font-family: 'Lobster', cursive;
+}
+.of:hover{
+font-family: 'Jura', sans-serif;
+}
+.the:hover{
+font-family: 'Sacramento', cursive;
+}
+.degree:hover{
+font-family: 'Faster One', cursive;
+}
+.of2:hover{
+font-family: 'Amaranth', sans-serif;
+}
+.stylization:hover{
+font-family: 'Old Standard TT', serif;
+}
+.of3:hover{
+font-family: 'Playfair Display SC', serif;
+}
+.artifice:hover{
+font-family: 'Righteous', cursive;
+}
+
+
+}
+
+@media screen and (min-width: 851px) and (max-width:1200px) {
+  .twelveHundredEighty, .ninteenHundred, .eightFifty, .sevenEightyEight, .sevenEightyThree, .sixThirty, .fiveSixty, .fourHundred, .tiny, .fourteenHundred {
+    display: none;
+  }
+  .twelveHundred {
+    display: visible;
+  }
+  html{
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=15740) 5 5, pointer;
+    min-height: 100%;
+  }
+  html, body {
+    overflow: hidden;
+    background-image: url(http://papers.co/wallpaper/papers.co-sm07-pink-blue-soft-pastel-blur-gradation-8-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .rule {
+    text-align: center;
+    font-size: 20px;
+  }
+  .number {
+    font-size: 70px;
+    text-align: center;
+  }
+  .listContainer {
+    display: flex;
+    flex-direction: flex-start;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  .quote1 {
+    position: absolute;
+    left: 0px;
+    top: 75px;
+    font-size: 400px;
+  }
+  .quote2 {
+    position: absolute;
+    right: 0px;
+    top: 75px;
+    font-size: 400px;
+  }
+  .tenList {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    margin-right: -100px;
+    width: 100vw;
+    height: 30vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .underline {
+    width: 70vw;
+    border-bottom: thick dotted black;
+    position: absolute;
+    left: 15%;
+  }
+  .lamp {
+    font-size: 25vw;
+  }
+  .history {
+    font-size: 18vw;
+  }
+  .me {
+    font-size: 39vw;
+  }
+  .communication {
+    font-size: 8vw;
+  }
+  .information {
+    font-size: 11vw;
+  }
+  .code {
+    font-size: 25vw;
+  }
+  .family {
+    font-size: 21vw;
+  }
+  .theory {
+    font-size: 19vw;
+  }
+  .meat {
+    font-size: 25vw;
+  }
+  .football {
+    font-size: 16vw;
+  }
+  .cyborg {
+    font-size: 18vw;
+  }
+  .boyfriend {
+    font-size: 13vw;
+  }
+  .cowboy {
+    font-size: 16vw;
+  }
+  .marriage {
+    font-size: 14vw;
+  }
+  .fun {
+    font-size: 30vw;
+  }
+  .baby {
+    font-size: 25vw;
+  }
+  .thanks {
+    font-size: 19vw;
+  }
+  .software {
+    font-size: 15vw;
+  }
+  .hardware {
+    font-size: 13vw;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 789px) and (max-width:850px) {
+  .twelveHundredEighty, .twelveHundred, .ninteenHundred, .sevenEightyEight, .sevenEightyThree, .sixThirty, .fiveSixty, .fourHundred, .tiny, .fourteenHundred {
+    display: none;
+  }
+  .eightFifty {
+    display: inline;
+  }
+  html{
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=32503) 5 5, pointer;
+  }
+  html, body {
+    background-image: url('https://image.ibb.co/gi06Pc/why.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Timmana', sans-serif;
+  }
+  audio {
+    background: lavender;
+    border: solid yellow 5px;
+    width: 5in;
+    height: 25px;
+    position: absolute;
+    left: 21vw;
+  }
+  .number {
+    font-size: 70px;
+    text-align: center;
+    color: yellow;
+    font-style: italic;
+  }
+  .rule {
+    text-align: center;
+    color: yellow;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    top: 30px;
+  }
+  .fling-minislide {
+    width: 5in;
+    height: 5in;
+    overflow: hidden;
+    position: relative;
+    top: 2vw;
+    left: 20vw;
+    border: solid yellow 5px;
+    background-color: rgba(yellow, .5)
+  }
+  .fling-minislide img {
+    position: absolute;
+    animation: fling-minislide 39s infinite;
+    opacity: 0;
+    width: 100%;
+    height: auto;
+  }
+  @keyframes fling-minislide {
+    0% {
+      opacity: 0;
+    }
+    7.9% {
+      opacity: 1;
+    }
+    15.8% {
+      opacity: 0;
+    }
+    96% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .fling-minislide img:nth-child(13) {
+    animation-duration: 39s;
+    animation-delay: 0s;
+  }
+  .fling-minislide img:nth-child(12) {
+    animation-duration: 39s;
+    animation-delay: 3s;
+  }
+  .fling-minislide img:nth-child(11) {
+    animation-duration: 39s;
+    animation-delay: 6s;
+  }
+  .fling-minislide img:nth-child(10) {
+    animation-duration: 39s;
+    animation-delay: 9s;
+  }
+  .fling-minislide img:nth-child(9) {
+    animation-duration: 39s;
+    animation-delay: 12s;
+  }
+  .fling-minislide img:nth-child(8) {
+    animation-duration: 39s;
+    animation-delay: 15s;
+  }
+  .fling-minislide img:nth-child(7) {
+    animation-duration: 39s;
+    animation-delay: 18s;
+  }
+  .fling-minislide img:nth-child(6) {
+    animation-duration: 39s;
+    animation-delay: 21s;
+  }
+  .fling-minislide img:nth-child(5) {
+    animation-duration: 39s;
+    animation-delay: 24s;
+  }
+  .fling-minislide img:nth-child(4) {
+    animation-duration: 39s;
+    animation-delay: 27s;
+  }
+  .fling-minislide img:nth-child(3) {
+    animation-duration: 39s;
+    animation-delay: 30s;
+  }
+  .fling-minislide img:nth-child(2) {
+    animation-duration: 39s;
+    animation-delay: 33s;
+  }
+  .fling-minislide img:nth-child(1) {
+    animation-duration: 39s;
+    animation-delay: 36s;
+  }
+}
+
+@media screen and (min-width: 631px) and (max-width:788px) {
+  .twelveHundredEighty, .twelveHundred, .eightFifty, .sevenEightyEight, .ninteenHundred, .sixThirty, .fiveSixty, .fourHundred, .tiny, .fourteenHundred {
+    display: none;
+  }
+  .sevenEightyThree {
+    display: inline;
+  }
+  html {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=32882) 5 5, pointer;
+    min-height: 100%;
+    overflow: hidden;
+  }
+  body {
+    animation: shift 100s infinite alternate;
+  }
+  @keyframes shift {
+    0% {
+      background-color: orange;
+    }
+    10% {
+      background-color: orange;
+    }
+    15% {
+      background-color: blue;
+    }
+    25% {
+      background-color: blue;
+    }
+    30% {
+      background-color: red;
+    }
+    40% {
+      background-color: red;
+    }
+    45% {
+      background-color: purple;
+    }
+    55% {
+      background-color: purple;
+    }
+    60% {
+      background-color: yellow;
+    }
+    70% {
+      background-color: yellow;
+    }
+    75% {
+      background-color: green;
+    }
+    85% {
+      background-color: green;
+    }
+    90% {
+      background-color: black;
+    }
+    100% {
+      background-color: black;
+    }
+  }
+  @keyframes spin {
+    from {
+      transform: rotateY(0);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  .dumb {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    perspective: 700px;
+  }
+  .axis {
+    position: relative;
+    width: 200px;
+    transform-style: preserve-3d;
+    animation: spin 20s infinite linear;
+  }
+  .side {
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: none;
+    line-height: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: orange;
+    text-align: center;
+  }
+  .much {
+    bottom: -50px;
+    border-bottom: 500px solid yellow;
+    transform: translateZ(62.5px) rotateX(30deg);
+  }
+  .fantastic {
+    bottom: -50px;
+    border-bottom: 500px solid green;
+    transform: translateZ(-62.5px) rotateY(180deg) rotateX(30deg);
+  }
+  .believed {
+    top: -30px;
+    left: 200px;
+    border-left: 500px solid blue;
+    transform: rotateY(270deg) translateX(-200px) rotateX(30deg);
+    transform-origin: center left;
+  }
+  .last {
+    bottom: -100px;
+    right: 75px;
+    border-bottom: 500px solid red;
+    transform: rotateY(-270deg) translateX(250px) rotateX(30deg);
+    transform-origin: top right;
+  }
+  .bottom {
+    width: 500px;
+    height: 500px;
+    background-color: purple;
+    background-image: url(http://pm1.narvii.com/6729/bc9821aef2f09149a9f00f4e7ba52e2b093126b6v2_00.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transform: rotateX(90deg) translateY(250px);
+    transform-origin: bottom center;
+    line-height: 100px;
+    font-family: sans-serif;
+    font-size: 300px;
+    color: orange;
+    text-align: center;
+  }}
+
+
+@media screen and (min-width: 561px) and (max-width:630px) {
+  .twelveHundredEighty, .twelveHundred, .eightFifty, .sevenEightyEight, .sevenEightyThree, .ninteenHundred, .fiveSixty, .fourHundred, .tiny, .fourteenHundred {
+    display: none;
+  }
+  .sixThirty {
+    display: inline;
+  }
+  html {
+    background-image: url("http://image.ibb.co/ji155H/bg2.jpg");
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=38974) 5 5, pointer;
+  }
+  html, body {
+    font-family: 'Inconsolata', monospace;
+    overflow: hidden;
+  }
+  img {
+    position: absolute;
+    z-index: -1;
+    top: -21px;
+    right: 0px;
+    max-width: auto;
+    height: auto;
+  }
+  .number {
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px black;
+  }
+  .clawck {
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    font-size: 16px;
+    color: white;
+    text-shadow: 1px 1px black;
+  }
+  .time {
+    transform: rotate(0turn);
+    position: absolute;
+    top: 19%;
+    left: 43%;
+  }
+  .has {
+    transform: rotate(.04turn);
+    position: absolute;
+    top: 20.4%;
+    left: 50%;
+  }
+  .a {
+    transform: rotate(.08turn);
+    position: absolute;
+    top: 21.4%;
+    left: 54%;
+  }
+  .great {
+    transform: rotate(.12turn);
+    position: absolute;
+    top: 24%;
+    left: 56%;
+  }
+  .deal {
+    transform: rotate(.16turn);
+    position: absolute;
+    top: 28%;
+    left: 60.5%;
+  }
+  .to {
+    transform: rotate(.20turn);
+    position: absolute;
+    top: 32%;
+    left: 63.5%;
+  }
+  .do {
+    transform: rotate(.24turn);
+    position: absolute;
+    top: 35.5%;
+    left: 64%;
+  }
+  .with {
+    transform: rotate(.28turn);
+    position: absolute;
+    top: 39.5%;
+    left: 63%;
+  }
+  .it {
+    transform: rotate(.32turn);
+    position: absolute;
+    top: 44%;
+    left: 62%;
+  }
+  .we {
+    transform: rotate(.36turn);
+    position: absolute;
+    top: 47%;
+    left: 60.5%;
+  }
+  .are {
+    transform: rotate(.40turn);
+    position: absolute;
+    top: 49.5%;
+    left: 57%;
+  }
+  .better {
+    transform: rotate(.44turn);
+    position: absolute;
+    top: 52.5%;
+    left: 50%;
+  }
+  .able {
+    transform: rotate(.48turn);
+    position: absolute;
+    top: 54%;
+    left: 45%;
+  }
+  .to2 {
+    transform: rotate(.52turn);
+    position: absolute;
+    top: 54%;
+    left: 41%;
+  }
+  .enjoy {
+    transform: rotate(.56turn);
+    position: absolute;
+    top: 52.75%;
+    left: 35%;
+  }
+  .a2 {
+    transform: rotate(.60turn);
+    position: absolute;
+    top: 51%;
+    left: 33%;
+  }
+  .fantasy {
+    transform: rotate(.64turn);
+    position: absolute;
+    top: 47.5%;
+    left: 26%;
+  }
+  .as {
+    transform: rotate(.68turn);
+    position: absolute;
+    top: 43%;
+    left: 25%;
+  }
+  .fantasy2 {
+    transform: rotate(.72turn);
+    position: absolute;
+    top: 38.3%;
+    left: 21%;
+  }
+  .when {
+    transform: rotate(.76turn);
+    position: absolute;
+    top: 32.5%;
+    left: 22%;
+  }
+  .it2 {
+    transform: rotate(.80turn);
+    position: absolute;
+    top: 28%;
+    left: 24%;
+  }
+  .is {
+    transform: rotate(.84turn);
+    position: absolute;
+    top: 25%;
+    left: 26%;
+  }
+  .not {
+    transform: rotate(.92turn);
+    position: absolute;
+    top: 23%;
+    left: 28%;
+  }
+  .ours {
+    transform: rotate(.96turn);
+    position: absolute;
+    top: 20%;
+    left: 32%;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width:560px) {
+  .twelveHundredEighty, .twelveHundred, .eightFifty, .sevenEightyEight, .sevenEightyThree, .sixThirty, .ninteenHundred, .fourHundred, .tiny, .fourteenHundred {
+    display: none;
+  }
+  .fiveSixty {
+    display: inline;
+  }
+  html {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=58234) 5 5, pointer;
+    min-height: 100%;
+    background-image: url("https://preview.ibb.co/g1W3aH/bg3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .number {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=58234) 5 5, pointer;
+    position: absolute;
+    left: 35vw;
+    font-size: 70px;
+    background: #edf5ee;
+    background-image: -webkit-linear-gradient(top, #edf5ee, #e4e6e3);
+    background-image: -moz-linear-gradient(top, #edf5ee, #e4e6e3);
+    background-image: -ms-linear-gradient(top, #edf5ee, #e4e6e3);
+    background-image: -o-linear-gradient(top, #edf5ee, #e4e6e3);
+    background-image: linear-gradient(to bottom, #edf5ee, #e4e6e3);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    padding: 9px;
+    border: solid #edf5ee 8px;
+    color: grey;
+  }
+  .number:hover {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=58234) 5 5, pointer;
+    background: #ababab;
+    background-image: -webkit-linear-gradient(top, #ababab, #e4e6e3);
+    background-image: -moz-linear-gradient(top, #ababab, #e4e6e3);
+    background-image: -ms-linear-gradient(top, #ababab, #e4e6e3);
+    background-image: -o-linear-gradient(top, #ababab, #e4e6e3);
+    background-image: linear-gradient(to bottom, #ababab, #e4e6e3);
+  }
+  .number:active {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=58234) 5 5, pointer;
+    background-color: #3e8e41;
+    -webkit-box-shadow: 3px 3px 0px #b5b3b5;
+    -moz-box-shadow: 3px 3px 0px #b5b3b5;
+    box-shadow: 3px 3px 0px #b5b3b5;
+    transform: translateY(4px)translateX(4px);
+  }
+  .rule {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=58234) 5 5, pointer;
+    color: grey;
+    position: absolute;
+    width: 90vw;
+    left: 20px;
+    top: 140px;
+    background: #edf5ee;
+    background-image: -webkit-linear-gradient(top, #edf5ee, #e4e6e3);
+    background-image: -moz-linear-gradient(top, #edf5ee, #e4e6e3);
+    background-image: -ms-linear-gradient(top, #edf5ee, #e4e6e3);
+    background-image: -o-linear-gradient(top, #edf5ee, #e4e6e3);
+    background-image: linear-gradient(to bottom, #edf5ee, #e4e6e3);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-size: 9px;
+    padding: 9px;
+    border: solid #edf5ee 8px;
+  }
+  .rule:hover {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=58234) 5 5, pointer;
+    background: #ababab;
+    background-image: -webkit-linear-gradient(top, #ababab, #e4e6e3);
+    background-image: -moz-linear-gradient(top, #ababab, #e4e6e3);
+    background-image: -ms-linear-gradient(top, #ababab, #e4e6e3);
+    background-image: -o-linear-gradient(top, #ababab, #e4e6e3);
+    background-image: linear-gradient(to bottom, #ababab, #e4e6e3);
+  }
+  .rule:active {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=58234) 5 5, pointer;
+    background-color: #3e8e41;
+    -webkit-box-shadow: 3px 3px 0px #b5b3b5;
+    -moz-box-shadow: 3px 3px 0px #b5b3b5;
+    box-shadow: 3px 3px 0px #b5b3b5;
+    transform: translateY(4px)translateX(4px);
+  }
+  .good {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=58234) 5 5, pointer;
+    position: absolute;
+    left: 20px;
+    top: 220px;
+    background: #edf5ee;
+    background-image: -webkit-linear-gradient(top, #edf5ee, #e4e6e3);
+    background-image: -moz-linear-gradient(top, #edf5ee, #e4e6e3);
+    background-image: -ms-linear-gradient(top, #edf5ee, #e4e6e3);
+    background-image: -o-linear-gradient(top, #edf5ee, #e4e6e3);
+    background-image: linear-gradient(to bottom, #edf5ee, #e4e6e3);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    color: #17a200;
+    font-size: 9px;
+    padding: 9px;
+    border: solid #edf5ee 8px;
+    width: 90%;
+    height: 200px;
+  }
+  .good:hover {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=58234) 5 5, pointer;
+    background: #ababab;
+    background-image: -webkit-linear-gradient(top, #ababab, #e4e6e3);
+    background-image: -moz-linear-gradient(top, #ababab, #e4e6e3);
+    background-image: -ms-linear-gradient(top, #ababab, #e4e6e3);
+    background-image: -o-linear-gradient(top, #ababab, #e4e6e3);
+    background-image: linear-gradient(to bottom, #ababab, #e4e6e3);
+  }
+  .good:active {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=58234) 5 5, pointer;
+    background: #d93444;
+    background-image: -webkit-linear-gradient(top, #d93444, #40b82b);
+    background-image: -moz-linear-gradient(top, #d93444, #40b82b);
+    background-image: -ms-linear-gradient(top, #d93444, #40b82b);
+    background-image: -o-linear-gradient(top, #d93444, #40b82b);
+    background-image: linear-gradient(to bottom, #d93444, #40b82b);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    -webkit-box-shadow: 14px 12px 3px #ff00ff;
+    -moz-box-shadow: 14px 12px 3px #ff00ff;
+    box-shadow: 14px 12px 3px #ff00ff;
+    color: #ff00ae;
+    font-size: 30vw;
+    padding: 9px;
+    border: solid #00ffa6 8px;
+    text-decoration: none;
+    font-family: cursive;
+    transform: translateY(4px)translateX(4px);
+  }
+  .good:active div.gud span {
+    display: none;
+  }
+  .good:active div.gud:after {
+    content: 'CAMP';
+  }
+  .bad {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=58234) 5 5, pointer;
+    position: absolute;
+    left: 20px;
+    top: 450px;
+    background: #edf5ee;
+    background-image: -webkit-linear-gradient(top, #edf5ee, #e4e6e3);
+    background-image: -moz-linear-gradient(top, #edf5ee, #e4e6e3);
+    background-image: -ms-linear-gradient(top, #edf5ee, #e4e6e3);
+    background-image: -o-linear-gradient(top, #edf5ee, #e4e6e3);
+    background-image: linear-gradient(to bottom, #edf5ee, #e4e6e3);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    color: #ff0000;
+    font-size: 9px;
+    padding: 9px;
+    border: solid #edf5ee 8px;
+    width: 90%;
+    height: 200px;
+  }
+  .bad:hover {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=58234) 5 5, pointer;
+    background: #ababab;
+    background-image: -webkit-linear-gradient(top, #ababab, #e4e6e3);
+    background-image: -moz-linear-gradient(top, #ababab, #e4e6e3);
+    background-image: -ms-linear-gradient(top, #ababab, #e4e6e3);
+    background-image: -o-linear-gradient(top, #ababab, #e4e6e3);
+    background-image: linear-gradient(to bottom, #ababab, #e4e6e3);
+  }
+  .bad:active {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=58234) 5 5, pointer;
+    background: #d93444;
+    background-image: -webkit-linear-gradient(top, #d93444, #40b82b);
+    background-image: -moz-linear-gradient(top, #d93444, #40b82b);
+    background-image: -ms-linear-gradient(top, #d93444, #40b82b);
+    background-image: -o-linear-gradient(top, #d93444, #40b82b);
+    background-image: linear-gradient(to bottom, #d93444, #40b82b);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    -webkit-box-shadow: 14px 12px 3px #ff00ff;
+    -moz-box-shadow: 14px 12px 3px #ff00ff;
+    box-shadow: 14px 12px 3px #ff00ff;
+    color: #ff00ae;
+    font-size: 30vw;
+    padding: 9px;
+    border: solid #00ffa6 8px;
+    text-decoration: none;
+    font-family: cursive;
+    transform: translateY(4px)translateX(4px);
+  }
+  .bad:active div.bahd span {
+    display: none;
+  }
+  .bad:active div.bahd:after {
+    content: 'CAMP';
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width:400px) {
+  .twelveHundredEighty, .twelveHundred, .eightFifty, .sevenEightyEight, .sevenEightyThree, .sixThirty, .fiveSixty, .ninteenHundred, .tiny, .fourteenHundred {
+    display: none;
+  }
+  .fourHundred {
+    display: inline;
+  }
+  html {
+  cursor: url(http://www.zingerbugimages.com/cursors/tuarus_gold_with_text.ani), url(http://www.zingerbug.com/cursors/cursors/tuarus_gold_with_text.gif), progress !important;
+    background-image: url('https://image.ibb.co/c4ZT2x/bg.jpg');
+    overflow: hidden;
+    color: rgb(182, 143, 26);
+    font-family: 'sabbath-black';
+  }
+  .number {
+    font-size: 70px;
+    text-align: center;
+  }
+  img {
+cursor: url(http://www.zingerbugimages.com/cursors/tuarus_gold_with_text.ani), url(http://www.zingerbug.com/cursors/cursors/tuarus_gold_with_text.gif), progress !important;
+    width: 75vw;
+    padding: 5px;
+    border: solid 3px;
+    border-color: rgb(29, 26, 7);
+    margin: 10px;
+    background: rgba(182, 143, 26, .5);
+  }
+  .rule {
+    text-align: center;
+    font-size: 20px;
+  }
+  .campPics {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 50px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 475px;
+    margin-right: -50px;
+    font-size: 20px;
+  }
+  .bigCampPics {
+    margin-left: -90px;
+  }
+}
+
+/* .fourHundred{
+  visibility: hidden;/visible;
+} */
+
+/*  landscapes */
+
+/*  iphone 5 */
+
+/* @media only screen
+  and (min-width: 320px)
+  and (max-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+} */
+
+/* iphone 6 and up (normal) */
+
+/* @media only screen
+  and (min-width: 375px)
+  and (max-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+} */
+
+/*  iphone 6 and up (plus) */
+
+/* @media only screen
+  and (min-width: 414px)
+  and (max-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+} */
